@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="bean.Student" table="student">
+<id name="id" > 
+	<generator class="increment"> </generator>
+	</id>
+<property name="name"></property>
+<property name="email"></property>
+<property name="mobile"></property>
+<property name="pass"></property>
+</class>
+</hibernate-mapping>
+
